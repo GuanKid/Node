@@ -6,7 +6,7 @@ const BlogPostSchema = new Schema({
     body: String,
     username: {
         type: String,
-        default: 'Pierre Jonker'
+        default: 'Desire Gwanzura'
     },
     datePosted: {
         /* Can declare property type with an object like this because we need 'default' */
